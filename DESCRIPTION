@@ -1,6 +1,6 @@
 Package: iraceplot
 Title: Plots for Visualizing the Data Produced by the 'irace' Package
-Version: 1.9.9000
+Version: 2.1.0
 Authors@R: c(person("Manuel", "López-Ibáñez", role = c("aut", "cre"),
                     email = "manuel.lopez-ibanez@manchester.ac.uk",
                     comment = c(ORCID = "0000-0001-9974-1295")),
@@ -14,7 +14,7 @@ License: MIT + file LICENSE
 Depends:
     R (>= 4.0.0)
 Imports:
-    irace (>= 3.9.0.9000),
+    irace (>= 4.0.0),
     cli,
     data.table,
     dplyr,
@@ -46,5 +46,4 @@ VignetteBuilder: knitr
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
-Remotes: MLopez-Ibanez/irace
 
