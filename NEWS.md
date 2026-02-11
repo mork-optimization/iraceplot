@@ -1,3 +1,10 @@
+# iraceplot 2.1.9000
+
+ * Requires ggplot2 >= 3.4.0 to silence deprecation warnings.
+ * `report()` now defaults to `irace.Rdata` so that it is even easier to use.
+ * `summarise_by_instance()` only tries to truncate the common root path if
+   `trainInstancesDir` is not empty.
+ 
 # iraceplot 2.1
 
  * Fix bug in `sampling_distance()` with a single configuration in one iteration.
